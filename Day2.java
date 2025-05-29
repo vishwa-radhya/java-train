@@ -1,4 +1,4 @@
-public class H{
+public class Day2{
     public static void main(String[] args) {
         //A
         // for(int row=0;row<7;row++)
