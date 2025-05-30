@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Day3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
+        // int n=sc.nextInt();
         // for(int i=0;i<n;i++){
         //     for(int j=0;j<=i;j++){
 
@@ -239,20 +239,21 @@ public class Day3 {
 // C D E
 // B C D E
 // A B C D E
-        int f=0;
-        for(int i=n;i>0;i--){
-                for(int j=0;j<=n-i;j++){
-                        char c = (char)(65+f);
-                        c= f%2==0 ? Character.toLowerCase(c) : Character.toUpperCase(c);
-                        System.out.print(c+" ");
-                        f++;
-                }
-                System.out.println();
-        }
+        // int f=0;
+        // for(int i=n;i>0;i--){
+        //         for(int j=0;j<=n-i;j++){
+        //                 char c = (char)(65+f);
+        //                 c= f%2==0 ? Character.toLowerCase(c) : Character.toUpperCase(c);
+        //                 System.out.print(c+" ");
+        //                 f++;
+        //         }
+        //         System.out.println();
+        // }
 // a 
 // B c 
 // D e F 
 // g H i J 
 // k L m N o 
+        
     }
 }
