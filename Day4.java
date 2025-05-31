@@ -145,19 +145,98 @@ public class Day4 {
 // 1 0 1 
 // 0 1 0 1 
 // 1 0 1 0 1 
-        for(int i=1;i<=n;i++){
-                for(int j=1;j<=n-i+1;j++){
-                        System.out.print(j+" ");
-                }
-                for(int j=1;j<i;j++){
-                        System.out.print(j+" ");
-                }
-                System.out.println();
-        }
+        // for(int i=1;i<=n;i++){
+        //         for(int j=1;j<=n-i+1;j++){
+        //                 System.out.print(j+" ");
+        //         }
+        //         for(int j=1;j<i;j++){
+        //                 System.out.print(j+" ");
+        //         }
+        //         System.out.println();
+        // }
 // 1 2 3 4 5 
 // 1 2 3 4 1 
 // 1 2 3 1 2 
 // 1 2 1 2 3 
 // 1 1 2 3 4
+        // count number of digits
+        // int c=0;
+        // while(n>0){
+        //         c++;
+        //         n=n/10;
+        // }
+        // System.out.println(c);
+        //optimal
+        // System.out.println((int)Math.log10(n)+1);
+        // System.out.println(1);
+        // for(int i=2;i<=n/2;i++){
+        //         if(n%i==0){
+        //                 System.out.println(i);
+        //         }
+        // }
+        // System.out.println(n);
+        // common divisors of 3 and 5
+        // for(int i=1;i<=n;i++){
+        //         if(i%3==0 && i%5==0){
+        //                 System.out.println(i);
+        //         }
+        // }
+        //lcm = a*b/gcd(a,b)
+        // sum of digits
+        // int sum=0;
+        // while(n>0){
+        //         int last = n%10;
+        //         sum+=last;
+        //         n=n/10;
+        // }
+        // System.out.println(sum);
+        // reverse and print digits
+        // while(n>0){
+        //         System.out.print(n%10+"");
+        //         n=n/10;
+        // }
+        // int s=0;
+        // while(n>0){
+        //         s=s*10+n%10;
+        //         n=n/10;
+        // }
+        // System.out.println(s);
+        //armstrong number
+        // int sum=0;
+        // int t=n;
+        // while(n>0){
+        //         int last =n%10;
+        //         sum+=last*last*last;
+        //         n=n/10;
+        // }
+        // if(sum==t){
+        //         System.out.println("yes");
+        // }else{
+        //         System.out.println("no");
+        // }
+        //given number is prime
+        // for(int i=2;i<=n/2;i++){
+        //         if(n%i==0){
+        //                 System.out.println("not prime");
+        //                 return;
+        //         }
+        // }
+        // System.out.println("prime");
+        //also print prime numbers for 1 to 10
+        for(int i=1;i<=n;i++){
+                if(isPrime(i,n)){
+                        System.out.println(i);
+                }
+        }
+        
+    }
+    static boolean isPrime(int num,int n){
+        if(num==2) return true;
+        for(int i=2;i<=n/2;i++){
+                if(num%i==0){
+                        return false;
+                }
+        }
+        return true;
     }
 }
