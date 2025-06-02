@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Day4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // int n=sc.nextInt();
         // for(int i=1;i<=n;i++){
         //         int num =i;
         //         for(int j=0;j<i;j++){
@@ -223,20 +223,19 @@ public class Day4 {
         // }
         // System.out.println("prime");
         //also print prime numbers for 1 to 10
-        for(int i=1;i<=n;i++){
-                if(isPrime(i,n)){
-                        System.out.println(i);
-                }
-        }
-        
-    }
-    static boolean isPrime(int num,int n){
-        if(num==2) return true;
-        for(int i=2;i<=n/2;i++){
-                if(num%i==0){
-                        return false;
-                }
-        }
-        return true;
+//         for(int i=1;i<=n;i++){
+//                 if(isPrime(i,n)){
+//                         System.out.println(i);
+//                 }
+//         }
+//     }
+//     static boolean isPrime(int num,int n){
+//         if(num==2) return true;
+//         for(int i=2;i<=n/2;i++){
+//                 if(num%i==0){
+//                         return false;
+//                 }
+//         }
+//         return true;
     }
 }
