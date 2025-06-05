@@ -36,8 +36,8 @@ public class Day7{
         //     }
         // }
         // System.out.println(Arrays.toString(a));
-        int a[] = { 1, 3, 4, 2, 3, 2, 2, 4, 4 };
-        int n = a.length;
+        // int a[] = { 1, 3, 4, 2, 3, 2, 2, 4, 4 };
+        // int n = a.length;
         // for(int i=0;i<n;i++){
         //     int c=0;
         //     for(int j=0;j<n;j++){
@@ -63,7 +63,28 @@ public class Day7{
         //     }
         // }
         // works removing dups and printing frequency
-    }
+    //     int a[] = { 1, 3, 4, 2, 3, 2, 2, 4, 4 ,4,2,2};
+    //     int n = a.length;
+    //     int maxCount=0;
+    //     int maxElement=-1;
+    //     boolean b[]=new boolean[n];
+    //     for(int i=0;i<n;i++){
+    //         if(!b[i]){
+    //             int count=0;
+    //             for(int j=0;j<n;j++){
+    //                 if(a[i]==a[j]){
+    //                     count++;
+    //                     b[j]=true;
+    //                 }
+    //             }
+    //             if(count>maxCount){
+    //                 maxCount=count;
+    //                 maxElement=a[i];
+    //             }
+    //         }
+    //     }
+    //     System.out.println(maxCount+" "+maxElement);
+    // }
     // static void rev(int[] a,int i,int j){
     //     while(i<j){
     //         int t=a[i];
