@@ -37,8 +37,22 @@ public class Day9{
         // System.out.println(isValidAnagram("a", "b"));
         // System.out.println(isValidAnagram("a", "a"));
         // System.out.println(isValidAnagram("ggii", "eekk"));
-        System.out.println(sentence_is_panagram("thequickbrownfoxjumpsoverthelazydog"));
-        System.out.println(sentence_is_panagram("leetcode"));
+        // System.out.println(sentence_is_panagram("thequickbrownfoxjumpsoverthelazydog"));
+        // System.out.println(sentence_is_panagram("leetcode"));
+        // Scanner sc = new Scanner(System.in);
+        // String s = sc.nextLine();
+        // StringBuilder str= new StringBuilder();
+        // int d=0;
+        // for(char c : s.toCharArray()){
+        //     if(c=='('){
+        //         if(d>0) str.append(c);
+        //         d++;
+        //     }else{
+        //         d--;
+        //         if(d>0) str.append(c);
+        //     }
+        // }
+        // System.out.println(str.toString());
     }
     // static void palin(String str){
     //     int i=0,j=str.length()-1;
